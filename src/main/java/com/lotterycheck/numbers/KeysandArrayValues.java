@@ -26,7 +26,7 @@ public class KeysandArrayValues {
 	        
 	        InputStream ExcelFileToRead;
 			try {
-				ExcelFileToRead = new FileInputStream("C:\\Users\\Lenovo\\workspace\\numbers\\src\\main\\java\\com\\lotterycheck\\numbers\\powerballhistoryNEW.xlsx");
+				ExcelFileToRead = new FileInputStream("C:\\Users\\Lenovo\\workspace\\numbers\\src\\main\\java\\com\\lotterycheck\\numbers\\megamilionshistoryNEW.xlsx"); // powerballhistoryNEW.xlsx");
 		        XSSFWorkbook  wb = new XSSFWorkbook(ExcelFileToRead);
 		        XSSFWorkbook test = new XSSFWorkbook(); 
 		
